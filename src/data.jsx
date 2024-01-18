@@ -16,3 +16,66 @@ export const imagArray = [
   Doctor11,
   Doctor12,
 ];
+
+export const data = [
+  {
+    img: "/src/assets/img/doc1.jpg",
+    name: "Dr. Serena Mitchell",
+    specialties: "Orthopedic Surgeon",
+    city: "Bangalore",
+  },
+  {
+    img: "/src/assets/img/doc2.jpg",
+    name: "Dr. Julian Bennett",
+    specialties: "Cardiologist",
+    city: "Delhi",
+  },
+  {
+    img: "/src/assets/img/doc3.jpg",
+    name: "Dr. Camila Rodriguez",
+    specialties: "Pediatrician",
+    city: "Noida",
+  },
+  {
+    img: "/src/assets/img/doc4.jpg",
+    name: "Dr. Victor Nguyen",
+    specialties: "Neurologist",
+    city: "Chennai",
+  },
+  {
+    img: "/src/assets/img/doc5.jpg",
+    name: "Dr. Ethan Carter",
+    specialties: "Dermatologist",
+    city: "Bangalore",
+  },
+  {
+    img: "/src/assets/img/doc6.jpg",
+    name: "Dr. Olivia Martinez",
+    specialties: "Ophthalmologist",
+    city: "Noida",
+  },
+  {
+    img: "/src/assets/img/doc1.jpg",
+    name: "Dr. Raz",
+    specialties: "Orthopedic Surgeon",
+    city: "Bangalore",
+  },
+  {
+    img: "/src/assets/img/doc3.jpg",
+    name: "Dr. Mia",
+    specialties: "Dermatologist",
+    city: "Chennai",
+  },
+  {
+    img: "/src/assets/img/doc3.jpg",
+    name: "Dr. Livin",
+    specialties: "Cardiologist",
+    city: "Noida",
+  },
+  {
+    img: "/src/assets/img/doc5.jpg",
+    name: "Dr. Lemon",
+    specialties: "Neurologist",
+    city: "Delhi",
+  },
+];

@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        hoverColor: "#FFC000",
-        brightColor: "#dd8036",
-        backgroundColor: "#008080",
-        // backgroundColorDark: "#00ffff",
+        hoverColor: "#008080 ",
+        brightColor: "#00ACC1",
+        backgroundDarkTextColor: "#00ffff",
+        DarkHeader: "#121212",
+        DarkContainer: "#111827",
+        DarkCard: "#4b5563",
+        lightDark: "#083344",
       },
     },
   },
