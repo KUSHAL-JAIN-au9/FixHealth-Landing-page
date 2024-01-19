@@ -22,7 +22,9 @@ const Homebanner = () => {
 
   return (
     <div id="home" className="w-full bg-cover relative ">
-      <div className="  w-full   transition-opacity z-0">
+      <div
+        className={` w-full   transition-opacity z-0  bg-my-image-class${image}`}
+      >
         <img
           className={`${
             image === image ? "opacity-100" : "opacity-0"
@@ -32,13 +34,17 @@ const Homebanner = () => {
         />
         <div
           className={` relative ${
-            image == 1 ? "top-[-25rem]" : " top-[-30rem] sm:top-[-25rem]"
+            image == 1
+              ? "top-[-25rem]"
+              : " top-[-30rem] sm:top-[-20rem] lg:top-[-25rem] "
           } left-0  sm:w-[50%] flex justify-center flex-col h-full gap-5 ml-1 z-0 lg:ml-20 `}
         >
           <h1
             className={`${
-              image === 4 ? "text-brightColor" : "text-white"
-            } text-5xl leading-snug z-0 `}
+              image === 4 || image === 0 || image === 1
+                ? "text-brightColor"
+                : "text-white"
+            } text-3xl lg:text-6xl leading-snug z-0 hidden sm:block `}
             // className={`absolute w-fit h-auto top-64 left-36 text-5xl leading-snug z-10  ${
             //   image === 4 || image === 1 || image === 5
             //     ? "text-brightColor"
